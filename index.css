@@ -1,0 +1,50 @@
+body {
+    margin: 0 auto;
+    background-color: hsl(0, 0%, 20%);
+}
+tr:nth-child(even) {
+    background: hsl(0, 0%, 80%);
+
+}
+
+tr:nth-child(odd) {
+    background: hsl(0, 0%, 100%);
+
+}
+
+tr {
+    margin: 10px 0;
+}
+
+th {
+    font-size:        3.5ch;
+    background-color: hsl(188, 24%, 74%);
+    border-width:     1px;
+    padding:          8px;
+    box-shadow: 2px 2px 2px gray, -2px -2px 2px black;
+    text-align:       left;
+
+}
+
+table {
+    font-size:       2ch;
+    color:           #333333;
+    width:           70vw;
+    height: 70vh;
+    box-shadow: 2px 2px 5px gray, -2px -2px 5px black;
+    border-collapse: collapse;
+    margin: 15px auto;
+    border-radius: 15px ;
+    padding: 35px;
+}
+
+
+
+td {
+    font-size:    2ch;
+    border-width: 1px;
+    padding:      8px;
+    box-shadow: 2px 2px 2px gray, -2px -2px 2px black;
+
+}
+
